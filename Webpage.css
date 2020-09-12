@@ -1,0 +1,446 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+header {
+	height: 70px;
+	background-color: #ed715f;
+}
+header::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.portfolio::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.header-cont {
+	width: 1024px;
+	margin: 0 auto;
+}
+.logo {
+	height: 70px;
+	float: left;
+}
+nav {
+	float: right;
+	margin: 0 auto;
+}
+ul {
+	list-style: none;
+}
+.nav-list {
+	display: inline;
+	line-height: 70px;
+}
+.nav-list a {
+	text-align: right;
+	color: #fafafa;
+	margin: 0 30px;
+	font-size: 16px;
+}
+.main-visual {
+	height: 650px;
+	width: 100%;
+	background-image: url(Webimage/mv.png);
+	background-size: cover;
+	background-position: center;
+}
+.brand {
+	font-size: 64px;
+	color: #fafafa;
+	text-align: center;
+	padding-top: 200px;
+}
+.exp {
+	font-size: 20px;
+	color: #fafafa;
+	text-align: center;
+	padding: 10px;
+}
+.Portfolio {
+	background-color: #eceff1;
+}
+.port-cont {
+	width: 920px;
+	margin: 0 auto;
+}
+.portfolio-title {
+	font-size: 32px;
+	color: #000000;
+	padding-top: 90px;
+	text-align: center;
+}
+.little-box {
+	margin:0 auto 30px;
+	height: 8px;
+	border-bottom: solid 3px #ec715f;
+	width: 70px;
+}
+.port-text {
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+	padding: 30px auto;
+}
+.pic-container {
+	padding: 30px 0 90px 0;
+	width: 920px;
+	height: 630px;
+}
+.pic1 {
+	margin: 0 10px 10px 0;
+	background-image: url(Webimage/sketch.jpg);
+	background-size: cover;
+	background-position: top;
+	height: 250px;
+	width: 300px;
+	float: left;
+}
+.pic2 {
+	margin: 0 0 10px;
+	background-image: url(Webimage/websuku.png);
+	background-size: cover;
+	background-position: top;
+	height: 250px;
+	width: 300px;
+	float: left;
+}
+.pic3 {
+	margin: 0 0 10px 10px;
+	background-image: url(Webimage/write.jpg);
+	background-size: cover;
+	background-position: top;
+	height: 250px;
+	width: 300px;
+	float: left;
+}
+.pic4 {
+	margin: 0 10px 0 0;
+	background-image: url(Webimage/webcamp.png);
+	background-size: cover;
+	background-position: top;
+	height: 250px;
+	width: 300px;
+	float: left;
+}
+.pic5 {
+	margin: 0;
+	background-image: url(Webimage/talk.jpg);
+	background-size: cover;
+	background-position: top;
+	height: 250px;
+	width: 300px;
+	float: left;
+}
+.pic6 {
+	margin: 0 0 0 10px;
+	background-image: url(Webimage/webcamp-mother.png);
+	background-size: cover;
+	background-position: top;
+	height: 250px;
+	width: 300px;
+	float: left;
+}
+.Feature::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.feature-cont {
+	width: 980px;
+	margin: 0 auto;
+}
+.title {
+	font-size: 32px;
+	color: #000000;
+	text-align: center;
+	padding-top: 90px;
+}
+.feature-t {
+	text-align: center;
+	font-size: 16px;
+	color: #000000;
+}
+.strength-box {
+	width: 980px;
+	margin: 30px 10px 90px;
+}
+.fa {
+	display: inline-block;
+}
+.strength1 {
+	margin-right: 10px;
+	width: 320px;
+	height: auto;
+	float: left;
+	text-align: center;
+}
+.strength2 {
+	margin-right: 10px;
+	width: 320px;
+	height: auto;
+	float: left;
+	text-align: center;
+}
+.strength3 {
+	margin: 0;
+	width: 320px;
+	height: auto;
+	float: left;
+	text-align: center;
+}
+h4 {
+	font-size: 20px;
+	color: #000000;
+	margin: 10px 0 10px;
+}
+.strength-t {
+	font-size: 16px;
+	color: #000000;
+	text-align: left;
+}
+.Profile::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.Profile {
+	background-color: #eceff1;
+	padding-bottom: 90px;
+}
+.profile-cont {
+	width: 1024px;
+	margin: 90px auto 0;
+}
+.profile-t {
+	text-align: center;
+	font-size: 16px;
+	color: #000000;
+}
+.profile-h4 {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.self-intro {
+	width: 512px;
+	float: right;
+}
+.intro-exp {
+	margin-bottom: 20px;
+}
+.selfie {
+	float: left;
+	width: 512px;
+}
+.selfie-icon {
+	margin: 30px auto 0;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	background-image: url(Webimage/my-icon.jpg);
+}
+.Contact::after {
+	display: block;
+	content: "";
+	clear: both;
+}
+.contact-cont {
+	width: 800px;
+	margin: 0 auto;
+}
+.contact-t {
+	font-size: 16px;
+	color: #000000;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.contact-detail {
+	width: 400px;
+	padding: 0 125px;
+	float: left;
+}
+.contact-detail h4 {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.contact-info {
+	text-decoration: underline;
+	margin-bottom: 20px;
+}
+.SNS {
+	width: 400px;
+	float: right;
+}
+.SNS h4 {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.SNS i {
+	margin-right: 20px;
+}
+.fa-large {
+	font-size: 50px;
+}
+footer {
+	background-color: #ec715f;
+	height: 60px;
+	margin-top: 90px;
+}
+.right {
+	font-size: 16px;
+	color: #fafafa;
+	text-align: center;
+	line-height: 60px;
+}
+
+@media screen and (max-width:768px) {
+	header {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.header-cont {
+		width: 90%;
+		height: 50px;
+	}
+	.for-humburger {
+		float: right;
+		width: 40px;
+		height: 40px;
+		margin-right: 5%;
+		border: 1px solid #fafafa;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	.main-visual {
+		width: 90%;
+		background-image: url(Webimage/code.png);
+		margin: 0 auto;
+	}
+	.bar {
+		display: block;
+		width: 25px;
+		height: 2px;
+		margin: 5px auto;
+		background-color: #fafafa;
+	}
+	.nav-list {
+		display: none;
+	}
+	.brand {
+		font-size: 40px;
+	}
+	.exp {
+		font-size: 18px;
+		padding: 10px 0;
+	}
+	.Portfolio {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.port-cont {
+		width: 90%;
+	}
+	.pic-container {
+		width: 90%;
+		height: 870px;
+	}
+	.pic1 {
+		display: none;
+	}
+	.pic2 {
+		float: none;
+		margin:0 auto 10px;
+	}
+	.pic3 {
+		display: none;
+	}
+	.pic4 {
+		float:none;
+		margin: 0 auto 10px;
+	}
+	.pic5 {
+		display: none;
+	}
+	.pic6 {
+		float: none;
+		margin: 0 auto;
+	}
+	.Feature {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.feature-cont {
+		width: 90%;
+
+	}
+	.strength-box {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.strength1 {
+		width: 90%;
+		float: none;
+		margin: 30px auto 10px;
+	}
+	.strength2 {
+		width: 90%;
+		float: none;
+		margin: 10px auto 10px;
+	}
+	.strength3 {
+		width: 90%;
+		float: none;
+		margin: 10px auto 10px;
+	}
+	.Profile {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.profile-cont {
+		width: 90%;
+	}
+	.self-intro {
+		width: 90%;
+		float: none;
+	}
+	.selfie {
+		width: 90%;
+		float: none;
+	}
+	.profile-h4 {
+		text-align: center;
+	}
+	.intro-exp {
+		text-align: center;
+	}
+	.Contact {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.contact-cont {
+		width: 90%;
+	}
+	.contact-detail {
+		width: 90%;
+		padding: 0;
+		float: none;
+		text-align: center;
+		margin: 0 auto 5px;
+	}
+	.SNS {
+		width: 90%;
+		float: none;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.SNS i {
+		margin-right: 8px;
+	}
+}
