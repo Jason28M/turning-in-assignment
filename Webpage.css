@@ -302,7 +302,7 @@ footer {
 
 @media screen and (max-width:768px) {
 	header {
-		width: 90%;
+		width: 100%;
 		margin: 0 auto;
 	}
 	.header-cont {
@@ -319,9 +319,8 @@ footer {
 		margin-bottom: 5px;
 	}
 	.main-visual {
-		width: 90%;
+		width: 100%;
 		background-image: url(Webimage/code.png);
-		margin: 0 auto;
 	}
 	.bar {
 		display: block;
@@ -341,7 +340,7 @@ footer {
 		padding: 10px 0;
 	}
 	.Portfolio {
-		width: 90%;
+		width: 100%;
 		margin: 0 auto;
 	}
 	.port-cont {
@@ -373,7 +372,7 @@ footer {
 		margin: 0 auto;
 	}
 	.Feature {
-		width: 90%;
+		width: 100%;
 		margin: 0 auto;
 	}
 	.feature-cont {
@@ -381,27 +380,26 @@ footer {
 
 	}
 	.strength-box {
-		width: 90%;
+		width: 100%;
 		margin: 0 auto;
 	}
 	.strength1 {
-		width: 90%;
+		width: 100%;
 		float: none;
 		margin: 30px auto 10px;
 	}
 	.strength2 {
-		width: 90%;
+		width: 100%;
 		float: none;
 		margin: 10px auto 10px;
 	}
 	.strength3 {
-		width: 90%;
+		width: 100%;
 		float: none;
 		margin: 10px auto 10px;
 	}
 	.Profile {
-		width: 90%;
-		margin: 0 auto;
+		width: 100%;
 	}
 	.profile-cont {
 		width: 90%;
@@ -409,10 +407,12 @@ footer {
 	.self-intro {
 		width: 90%;
 		float: none;
+		margin: 0 auto;
 	}
 	.selfie {
 		width: 90%;
 		float: none;
+		margin: 0 auto;
 	}
 	.profile-h4 {
 		text-align: center;
@@ -421,8 +421,7 @@ footer {
 		text-align: center;
 	}
 	.Contact {
-		width: 90%;
-		margin: 0 auto;
+		width: 100%;
 	}
 	.contact-cont {
 		width: 90%;
