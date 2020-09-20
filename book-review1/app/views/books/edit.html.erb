@@ -1,0 +1,24 @@
+<% if flash[:edit_blank] %>
+	<div class="blank-error">
+		<div class="error-title">
+			<span class="error-title-p">
+			Error!
+			</span>
+		</div>
+		<div class="error-content">
+			<span class="error-content-p">
+				Both Title and Body cannnot be blank.
+			</span>
+		</div>
+	</div>
+<% end %>
+<h1>Editing Book</h1>
+<%= form_for(@book, url:"/books/#{@book.id}") do |f| %>
+<p>Title</p>
+<%= f.text_field :title %>
+<p>Body</p>
+<%= f.text_area :body %>
+<%= f.submit 'Update Book' %>
+<% end %>
+<%= link_to "show", "/books/#{@book.id}" %>
+<%= link_to "Back", "/books" %>

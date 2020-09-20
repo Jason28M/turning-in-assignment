@@ -1,0 +1,50 @@
+<% if flash[:destroy] %>
+	<div class="destroy">
+		<span class="success"><%= flash[:destroy] %></span>
+	</div>
+<% end %>
+
+<h1>Books</h1>
+<table>
+	<thead>
+		<tr>
+			<th>Title</th>
+			<th>Body</th>
+			<th colspan="3"></th>
+		</tr>
+	</thead>
+	<tbody>
+		<% @books.each do |book| %>
+		<tr>
+			<td><%= book.title %></td>
+			<td><%= book.body %></td>
+			<td><%= link_to "show", "/books/#{book.id}" %></td>
+			<td><%= link_to "Edit", "/books/#{book.id}/edit" %></td>
+			<td><%= link_to "Destroy", "books/#{book.id}", method: :delete, "data-confirm" =>"Are you sure?" %></td>
+		</tr>
+		<% end %>
+	</tbody>
+</table>
+
+<h4>New Book</h4>
+<% if flash[:blank] %>
+	<div class="blank-error">
+		<div class="error-title">
+			<span class="error-title-p">
+			Error!
+			</span>
+		</div>
+		<div class="error-content">
+			<span class="error-content-p">
+				Both Title and Body cannnot be blank.
+			</span>
+		</div>
+	</div>
+<% end %>
+<%= form_for(@book, url: '/books') do |f| %>
+<h5>Title</h5>
+<%= f.text_field :title %>
+<h5>Body</h5>
+<%= f.text_area :body %>
+<%= f.submit 'Create Book' %>
+<% end %>
